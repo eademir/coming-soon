@@ -81,12 +81,12 @@ header a, a:visited {
 }
 
 .stars {
-  background:#000 url(images/stars.png) repeat top center;
+  background:#000 url(../images/stars.png) repeat top center;
   z-index:0;
 }
 
 .twinkling{
-  background:transparent url(images/twinkling.png) repeat top center;
+  background:transparent url(../images/twinkling.png) repeat top center;
   z-index:1;
 
   -moz-animation:move-twink-back 200s linear infinite;
@@ -97,7 +97,7 @@ header a, a:visited {
 }
 
 .clouds{
-    background:transparent url(images/clouds2.png) repeat top center;
+    background:transparent url(../images/clouds2.png) repeat top center;
     z-index:3;
 
   -moz-animation:move-clouds-back 200s linear infinite;
@@ -105,4 +105,31 @@ header a, a:visited {
   -o-animation:move-clouds-back 200s linear infinite;
   -webkit-animation:move-clouds-back 200s linear infinite;
   animation:move-clouds-back 200s linear infinite;
+}
+
+.coming-soon{
+    z-index: 11;
+    position: absolute;
+    left: calc(50% - 200px);
+    top: calc(50% - 100px);
+    width: 400px;
+    text-align: center;
+    /* From https://css.glass */
+    background: rgba(225, 225, 227, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.4px);
+    -webkit-backdrop-filter: blur(10.4px);
+    border: 1px solid rgba(105, 105, 107, 1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-family: "Courgette";
+}
+
+@font-face {
+    font-family: 'Courgette';
+    src: url('../fonts/Courgette-Regular.ttf') format('truetype');
 }
