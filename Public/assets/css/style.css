@@ -114,13 +114,14 @@ header a, a:visited {
     top: calc(50% - 100px);
     width: 400px;
     text-align: center;
-    /* From https://css.glass */
+    /* From https://css.glass 
     background: rgba(225, 225, 227, 0.32);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10.4px);
     -webkit-backdrop-filter: blur(10.4px);
     border: 1px solid rgba(105, 105, 107, 1);
+    */
 }
 
 h1 {

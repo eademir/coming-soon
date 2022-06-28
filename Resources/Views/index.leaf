@@ -10,8 +10,7 @@
 </head>
 <body>
     <div class="coming-soon">
-        <img alt="GEOID" src="assets/images/logo.png" width="400px"/>
-        <h1>COMING SOON...</h1>
+        <img alt="GEOID" src="assets/images/GEO.png" width="400px"/>
     </div>
     <div class="stars"></div>
     <div class="twinkling"></div>
